@@ -5,7 +5,7 @@ CodePage decoder for Windows
 ## Usage
 
 ```
-io.Copy(os.Stdout, localereader.NewAcpReader(bytesSjis))
+io.Copy(os.Stdout, localereader.NewAcpReader(bytes.Reader(bytesSjis)))
 ```
 
 ## Installation
